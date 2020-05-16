@@ -1,0 +1,11 @@
+<div class='row'>
+<div class='col-sm-8'>
+  <%= render partial: 'posts/list', locals: {posts: @posts} %>
+</div>
+  <div class='col-sm-4'>
+    <p class='h4'><%= @profile.full_name%></p>
+    <p><%= @profile.user_name%></p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim praesent elementum facilisis leo vel fringilla. </p>
+    <p>Memember since <%= @profile.created_at.strftime("%d/%m/%Y")%></p>
+  </div>
+</div>
