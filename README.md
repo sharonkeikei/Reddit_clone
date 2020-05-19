@@ -1,24 +1,16 @@
-# README
+# Reddit Cloning project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+cloning reddit page following Youtube tutorial 
+https://www.youtube.com/watch?v=Rsqj34unV1c
 
-Things you may want to cover:
+* Using the gem 'devise' to allow basic sign up/sign in/sign out for users (signed up & logined in to vote and create communities & post)
 
-* Ruby version
+* add upvotes and downvotes to post.
 
-* System dependencies
+* use AJAX to make the request to upvote or downvote a post
 
-* Configuration
+* Update ordering of posts based on score
 
-* Database creation
+* add karma to user accounts, allowing them to gain points for posts that have good engagement.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* create comments and allow them to be added to posts, displaying the latest post comments in real time through javascript 
